@@ -61,7 +61,7 @@ function removeExtraBlanks($str)
         for ($i = 0; $i < $lenOfStr; $i++) {
             if ($i == 0 || $i == $lenOfStr - 1) {
                 if (!($str[$i] == ' '))
-                    $outLine[$i] = $str[$i]; // сделать по-другому
+                    $outLine[$i] = $str[$i];
             } else
                 if ($str[$i] == ' ') {
                     $countOfSpaces++;
